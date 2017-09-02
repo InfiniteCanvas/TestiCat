@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CameraDrag : MonoBehaviour {
-
-    [Range(0.01f, 1f)]public float DragSpeedScaling;
+public class CameraDrag : MonoBehaviour
+{
+    [Range(0.01f, 1f)] public float DragSpeedScaling;
     [SerializeField] private Camera _cam;
     private Transform _camTransform;
     private Vector3 _dragCamStart, _dragDelta, _dragMouseScreenStart, _camLeft, _camForward;
@@ -13,16 +11,19 @@ public class CameraDrag : MonoBehaviour {
     private void Start()
     {
         _dragging = false;
-        _camTransform = (_cam??GetComponent<Camera>()).transform;
+        if (_cam == null)
+            _cam = GetComponent<Camera>();
+        _camTransform = transform;
         DragSpeedScaling = Mathf.Clamp(DragSpeedScaling, 0.01f, 1);
     }
 
-    void Update () {
+    private void Update()
+    {
         if (Input.GetKeyDown(KeyCode.Mouse0))
             StartDragging();
 
         if (Input.GetKeyUp(KeyCode.Mouse0))
-            _dragging = false;
+            StopDragging();
 
         if (Input.GetKey(KeyCode.Mouse1))
             Rotate();
@@ -34,12 +35,19 @@ public class CameraDrag : MonoBehaviour {
             DragCamera();
     }
 
+    #region Implementation
+
     private void StartDragging()
     {
         _dragMouseScreenStart = Input.mousePosition;
         _dragCamStart = _camTransform.position;
         CalculateAndSetLeftAndForward();
         _dragging = true;
+    }
+
+    private void StopDragging()
+    {
+        _dragging = false;
     }
 
     private void CalculateAndSetLeftAndForward()
@@ -56,12 +64,14 @@ public class CameraDrag : MonoBehaviour {
 
     private void Rotate()
     {
-        _camTransform.eulerAngles = new Vector3(45, Input.GetAxisRaw("Mouse X") + _camTransform.eulerAngles.y, 0);
+        _camTransform.eulerAngles = new Vector3(_camTransform.eulerAngles.x - Input.GetAxisRaw("Mouse Y"), _camTransform.eulerAngles.y + Input.GetAxisRaw("Mouse X"), 0);
     }
 
     private void Zoom()
     {
-        _cam.orthographicSize += Input.GetAxisRaw("Mouse ScrollWheel")*-10;
+        _cam.orthographicSize += Input.GetAxisRaw("Mouse ScrollWheel") * -10;
         _cam.orthographicSize = Mathf.Clamp(_cam.orthographicSize, 1, 20);
     }
+
+    #endregion
 }

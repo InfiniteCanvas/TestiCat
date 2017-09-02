@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: b9eeb8c976e0b5040839a1789a96177d
+timeCreated: 1504384488
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Badezimmer2
+    100004: Badezimmerboden
+    100006: Badezimmerwand1
+    100008: Badezimmerwand2
+    100010: Badezimmerwand3
+    100012: Badezimmerwand4
+    100014: Badezimmerwand5
+    100016: Badezimmerwand6
+    400000: //RootNode
+    400002: Badezimmer2
+    400004: Badezimmerboden
+    400006: Badezimmerwand1
+    400008: Badezimmerwand2
+    400010: Badezimmerwand3
+    400012: Badezimmerwand4
+    400014: Badezimmerwand5
+    400016: Badezimmerwand6
+    2300000: Badezimmerboden
+    2300002: Badezimmerwand1
+    2300004: Badezimmerwand2
+    2300006: Badezimmerwand3
+    2300008: Badezimmerwand4
+    2300010: Badezimmerwand5
+    2300012: Badezimmerwand6
+    3300000: Badezimmerboden
+    3300002: Badezimmerwand1
+    3300004: Badezimmerwand2
+    3300006: Badezimmerwand3
+    3300008: Badezimmerwand4
+    3300010: Badezimmerwand5
+    3300012: Badezimmerwand6
+    4300000: Badezimmerboden
+    4300002: Badezimmerwand1
+    4300004: Badezimmerwand3
+    4300006: Badezimmerwand5
+    4300008: Badezimmerwand2
+    4300010: Badezimmerwand4
+    4300012: Badezimmerwand6
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

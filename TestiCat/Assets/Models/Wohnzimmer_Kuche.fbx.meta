@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 5515380f2031e914b86526fe5dba01d1
+timeCreated: 1504384488
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Wohnzimmer_Kuche2
+    100004: Wohnzimmer_Kucheboden
+    100006: Wohnzimmer_Kuchewand1
+    100008: Wohnzimmer_Kuchewand2
+    100010: Wohnzimmer_Kuchewand3
+    100012: Wohnzimmer_Kuchewand4
+    100014: Wohnzimmer_Kuchewand5
+    100016: Wohnzimmer_Kuchewand6
+    100018: Wohnzimmer_Kuchewand7
+    100020: Wohnzimmer_Kuchewand8
+    400000: //RootNode
+    400002: Wohnzimmer_Kuche2
+    400004: Wohnzimmer_Kucheboden
+    400006: Wohnzimmer_Kuchewand1
+    400008: Wohnzimmer_Kuchewand2
+    400010: Wohnzimmer_Kuchewand3
+    400012: Wohnzimmer_Kuchewand4
+    400014: Wohnzimmer_Kuchewand5
+    400016: Wohnzimmer_Kuchewand6
+    400018: Wohnzimmer_Kuchewand7
+    400020: Wohnzimmer_Kuchewand8
+    2300000: Wohnzimmer_Kucheboden
+    2300002: Wohnzimmer_Kuchewand1
+    2300004: Wohnzimmer_Kuchewand2
+    2300006: Wohnzimmer_Kuchewand3
+    2300008: Wohnzimmer_Kuchewand4
+    2300010: Wohnzimmer_Kuchewand5
+    2300012: Wohnzimmer_Kuchewand6
+    2300014: Wohnzimmer_Kuchewand7
+    2300016: Wohnzimmer_Kuchewand8
+    3300000: Wohnzimmer_Kucheboden
+    3300002: Wohnzimmer_Kuchewand1
+    3300004: Wohnzimmer_Kuchewand2
+    3300006: Wohnzimmer_Kuchewand3
+    3300008: Wohnzimmer_Kuchewand4
+    3300010: Wohnzimmer_Kuchewand5
+    3300012: Wohnzimmer_Kuchewand6
+    3300014: Wohnzimmer_Kuchewand7
+    3300016: Wohnzimmer_Kuchewand8
+    4300000: Wohnzimmer_Kucheboden
+    4300002: Wohnzimmer_Kuchewand8
+    4300004: Wohnzimmer_Kuchewand2
+    4300006: Wohnzimmer_Kuchewand4
+    4300008: Wohnzimmer_Kuchewand6
+    4300010: Wohnzimmer_Kuchewand1
+    4300012: Wohnzimmer_Kuchewand3
+    4300014: Wohnzimmer_Kuchewand7
+    4300016: Wohnzimmer_Kuchewand5
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
